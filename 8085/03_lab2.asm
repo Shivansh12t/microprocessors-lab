@@ -1,0 +1,8 @@
+;Swap Memory of Two Location
+LDA 9000H;
+MOV B, A;
+LDA 9001H;
+STA 9000H;
+MOV A, B;
+STA 9001H;
+HLT;
